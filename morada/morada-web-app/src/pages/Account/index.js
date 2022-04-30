@@ -1,20 +1,21 @@
 import { Button } from "../../components/Button";
 import { Page } from "../../components/Page";
 import { PageTitle } from "../../globalStyles";
+import React from "react";
 
 export const Account = () => {
 
-    const isAuth = false;
+    const isAuth = true;
 
     const UserInfo = () => (
         <div>
-            <h3>Jerson</h3>
-            <h5>9999991111</h5>
-            <p>jerson.suaza@cedesistemas.edu.co</p>
+            <h3>yeison</h3>
+            <h5>12121212</h5>
+            <p>Yeison@gmail.com</p>
             <hr />
-            <Button 
-                label="Cerrar sesión" 
-                onPress={ () => { alert('cerrar sesión') } } 
+            <Button
+                label="Cerrar sesión"
+                onPress={ () => { alert('cerrar sesión') } }
             />
         </div>
     )
