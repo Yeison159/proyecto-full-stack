@@ -5,7 +5,7 @@ const BaseButtonStyle = css`
     width: 100%;
     font-size: 1em;
     color: #fff;
-    background-color: #4A148C;
+    background-color: #5078E1;
     text-align: center;
     border: none;
     border-radius: 6px;

@@ -39,7 +39,6 @@ export const FormControl = styled.div`
         font-weight: 500;
     }
    input[type="email"], input[type="password"],  input[type="text"],  input[type="number"] {
-        display: block;
         width: 100%;
         font-size: 1.1em;
         padding: 5px 10px;
