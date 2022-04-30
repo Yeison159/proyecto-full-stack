@@ -30,6 +30,7 @@ export const MenuItemWrapper = styled.section`
     }
     p {
         margin: 5px auto;
+         color: #5078E1;
     }
     &:hover {
         background-color: #5078E1;
