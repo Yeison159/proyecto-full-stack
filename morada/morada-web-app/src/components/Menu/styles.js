@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import {MENU_HEIGH} from "../../constantes/styles";
+import {MENU_HEIGHT} from "../../constantes/styles";
 
 export const MenuWrapper = styled.div`
     border-top: 2px solid #ccc;
     width: 100%;
-    height: ${MENU_HEIGH}px;
+    height: ${MENU_HEIGHT}px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -25,15 +25,15 @@ export const MenuItemWrapper = styled.section`
     align-items: center;
     justify-content: center;
     svg {
-        color: #5078E1;
+        color: #4A148C;
         font-size: 1.3em;
     }
     p {
         margin: 5px auto;
-         color: #5078E1;
+        color: #4A148C;
     }
     &:hover {
-        background-color: #5078E1;
+        background-color: #4A148C;
         svg { color: #fff; }
         p { color: #fff; }
     }

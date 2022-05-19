@@ -1,0 +1,1 @@
+#Desarrollar un algoritmo que calcule el coseno de x, considerar que “número!” es el factorial de dicho número, es decir:

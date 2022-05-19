@@ -1,11 +1,28 @@
-import styled from 'styled-components'
-import {MENU_HEIGH} from "../../constantes/styles";
+import styled from 'styled-components';
 
-export const ButtonIconWrapper = styled.div`
-   
- 
+import React from "react";
+import {PRIMARY_COLOR} from "../../constantes/styles";
+
+const ButtonIconStyle = styled.button`
+    border: 1px solid ${PRIMARY_COLOR};
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    svg {
+        color: ${PRIMARY_COLOR};
+        font-size: 1.4em;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: ${PRIMARY_COLOR};
+        svg {
+            color: #fff;
+        }
+    }
 `;
 
-export const ButtonIcon = () => {
-
-}
+export const ButtonIcon = ({ icon: Icon, onPress }) => (
+    <ButtonIconStyle type="button" onClick={onPress}>
+        <Icon />
+    </ButtonIconStyle>
+);

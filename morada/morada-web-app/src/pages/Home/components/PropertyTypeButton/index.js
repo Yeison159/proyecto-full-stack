@@ -1,12 +1,10 @@
 import React from 'react';
 import {IconWrapper, PropertyTypeButtonWrapper} from './styles';
-export const PropertyTypeButton = ({icon: Icon, label}) => {
-    return (
-        <PropertyTypeButtonWrapper>
-            <IconWrapper>
-                <Icon />
-            </IconWrapper>
-            <p> {label}</p>
-        </PropertyTypeButtonWrapper>
-    );
-};
+export const PropertyTypeButton = ({ icon:Icon, id, label, selected, onPress }) => (
+    <PropertyTypeButtonWrapper onClick={() => onPress(id)} selected={selected}>
+        <IconWrapper selected={selected}>
+            <Icon />
+        </IconWrapper>
+        <p>{label}</p>
+    </PropertyTypeButtonWrapper>
+);

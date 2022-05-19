@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {PRIMARY_COLOR} from "../../constantes/styles";
 
 export const PropertyHeaderWrapper = styled.header`
   display: flex;
@@ -27,7 +28,7 @@ button {
   width: 100%;
   padding: 20px 0;
   color: #fff;
-  background: #5078E1;
+  background:  ${PRIMARY_COLOR};
   outline: none;
   border: none;
   border-radius: 10px;

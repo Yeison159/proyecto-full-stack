@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import styled, {css} from 'styled-components';
+import {PRIMARY_COLOR} from "../../constantes/styles";
 
 const BaseButtonStyle = css`
     width: 100%;
     font-size: 1em;
     color: #fff;
-    background-color: #5078E1;
+    background-color: ${PRIMARY_COLOR};
     text-align: center;
     border: none;
     border-radius: 6px;
@@ -21,6 +22,6 @@ export const ButtonStyled = styled.button`
 `;
 export const LinkStyled = styled(Link)`
     ${BaseButtonStyle}
-    text-decoration: none;
+    text-decoration : none;
     display: block;
 `;

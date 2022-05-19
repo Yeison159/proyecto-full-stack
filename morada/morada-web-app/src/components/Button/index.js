@@ -1,15 +1,15 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+
 import { ButtonStyled, LinkStyled } from "./styles";
 
 export const Button = ({ label, onPress, linkTo }) => (
-  <Fragment>
-    {
+    <Fragment>
+      {
         onPress ? (
-        <ButtonStyled onClick={onPress}>{label}</ButtonStyled>
+            <ButtonStyled onClick={onPress}>{label}</ButtonStyled>
         ) : (
-        <LinkStyled to={linkTo}>{label}</LinkStyled>
+            <LinkStyled to={linkTo}>{label}</LinkStyled>
         )
-    }
-  </Fragment>
+      }
+    </Fragment>
 );

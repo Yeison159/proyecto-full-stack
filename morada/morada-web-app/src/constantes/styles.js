@@ -1,2 +1,2 @@
-export const MENU_HEIGH = 80;
-export const PRIMARY_COLOR  = 80;
+export const MENU_HEIGHT = 80;
+export const PRIMARY_COLOR = '#4A148C';
