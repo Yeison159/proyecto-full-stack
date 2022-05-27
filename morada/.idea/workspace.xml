@@ -4,21 +4,8 @@
     <list default="true" id="13c9e1d5-46c3-4517-bebc-3181f8e433af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Button/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Button/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/ButtonIcon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/ButtonIcon/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Menu/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Menu/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Page/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Page/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/constantes/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/constantes/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/globalStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyTypeButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyTypeButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyTypeButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyTypeButton/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Property/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Property/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Signup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Signup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xampp/htdocs/proyectos_codi/betppro_salvador_dev/jugador" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +43,7 @@
       <updated>1650722617417</updated>
       <workItem from="1650722618787" duration="6000" />
       <workItem from="1652534101713" duration="613000" />
+      <workItem from="1653657172632" duration="104000" />
     </task>
     <servers />
   </component>
@@ -63,9 +51,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1652711076637">
+    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1653657275752">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1652711076637" />
+    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1653657275752" />
   </component>
 </project>

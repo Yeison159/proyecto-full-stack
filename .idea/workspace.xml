@@ -52,13 +52,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xampp/htdocs/proyectos_codi/toa-dev/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/morada" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proyectos-full-stack\morada" />
       <recent name="C:\proyectos-full-stack\taller-html\img" />
     </key>
   </component>
@@ -82,6 +83,7 @@
       <workItem from="1650722098170" duration="285000" />
       <workItem from="1650722455899" duration="161000" />
       <workItem from="1650722626174" duration="804000" />
+      <workItem from="1652995526938" duration="970000" />
     </task>
     <servers />
   </component>
@@ -114,9 +116,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647097080688" />
-    <state x="391" y="77" width="583" height="566" key="find.popup" timestamp="1650513098320">
+    <state x="391" y="77" width="583" height="566" key="find.popup" timestamp="1652996263627">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="391" y="77" width="583" height="566" key="find.popup/0.0.1366.720@0.0.1366.720" timestamp="1650513098320" />
+    <state x="391" y="77" width="583" height="566" key="find.popup/0.0.1366.720@0.0.1366.720" timestamp="1652996263627" />
   </component>
 </project>
