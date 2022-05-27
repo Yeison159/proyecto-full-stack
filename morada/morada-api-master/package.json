@@ -8,7 +8,7 @@
       "start-dev":"nodemon app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Julian",
+    "author": "yeison",
     "license": "MIT",
     "dependencies": {
       "express": "^4.18.1"

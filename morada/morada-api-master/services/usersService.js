@@ -2,7 +2,7 @@ const responseOk = require('../utils/responseOk');
 const responseError = require('../utils/responseError');
 
 const auth = (email, password) => {
-  if (email === "juan@cedesistemas.edu.co" && password === "123456") {
+  if (email === "yeison@gmail.co" && password === "123456") {
     return responseOk({ token: "xxxxyyyyzzzzwwwwttttt" });
   }
   return responseError(401, "user unauthorized");
