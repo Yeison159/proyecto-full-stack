@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13c9e1d5-46c3-4517-bebc-3181f8e433af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/morada-api-master/connection/mongoconn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/controllers/propertiesCtrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/middleware/authVerify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/models/favoriteModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/models/propertyModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/models/requestModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/models/userModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/services/propertiesService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/spykes/bcryp-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/spykes/jwt-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/controllers/usersCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/controllers/usersCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/routes/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/routes/properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/services/usersService.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/services/usersService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +65,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proyectos-full-stack\morada" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/morada-api-master/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start-dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,16 +103,44 @@
       <workItem from="1650722618787" duration="6000" />
       <workItem from="1652534101713" duration="613000" />
       <workItem from="1653657172632" duration="104000" />
+      <workItem from="1655322598705" duration="346000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1653657275752">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1653657275752" />
+    <state width="1323" height="170" key="GridCell.Tab.0.bottom" timestamp="1655322887461">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1323" height="170" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
+    <state width="1323" height="170" key="GridCell.Tab.0.center" timestamp="1655322887461">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1323" height="170" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
+    <state width="1323" height="170" key="GridCell.Tab.0.left" timestamp="1655322887461">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1323" height="170" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
+    <state width="1323" height="170" key="GridCell.Tab.0.right" timestamp="1655322887461">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1323" height="170" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
   </component>
 </project>

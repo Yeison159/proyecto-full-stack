@@ -1,15 +1,13 @@
-const express = require('express');
-const {saveProperty} = require("../controllers/propertyCtrl");
-const {getProperty, getPropertyById, deleteProperty, updateProperty, saveComment} = require("../controllers/propertyCtrl");
+const express = require("express");
 const router = express.Router();
+const {
+  create,
+  getAll,
+  getDetail,
+} = require("./../controllers/propertiesCtrl");
 
-router.get('/', getProperty);
-router.get('/:id', getPropertyById);
-router.post('/', saveProperty);
-router.post('/:id', saveComment);
-router.delete('/:id', deleteProperty);
-router.put('/:id', updateProperty);
-
-
+router.post("/", create);
+router.get("/", getAll);
+router.get("/:id", getDetail);
 
 module.exports = router;

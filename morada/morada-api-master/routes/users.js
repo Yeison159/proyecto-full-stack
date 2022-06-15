@@ -1,11 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const { login, signup } = require('../controllers/usersCtrl');
+const authVerify = require('../middleware/authVerify');
+const { login, signup, getUser } = require('../controllers/usersCtrl');
 
-router.get('/', function (req, res) {
-    res.json('yeusus');
-});
 router.post('/login', login);
 router.post('/signup', signup);
+router.get('/info', authVerify, getUser);
 
 module.exports = router;
