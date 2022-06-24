@@ -5,6 +5,7 @@ export const PropertyTypeCardWrapper = styled.div`
   border-radius: 20px;
     padding: 15px;
   display: flex;
+  margin-bottom: 10px;
    box-shadow: 5px 2px 7px 0px rgba(194,194,194,0.75);
     -webkit-box-shadow: 5px 2px 7px 0px rgba(194,194,194,0.75);
     -moz-box-shadow: 5px 2px 7px 0px rgba(194,194,194,0.75);

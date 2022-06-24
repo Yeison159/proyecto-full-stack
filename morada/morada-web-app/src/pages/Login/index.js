@@ -9,6 +9,7 @@ import {
 import { Button } from "../../components/Button";
 import { ButtonIcon } from "../../components/ButtonIcon";
 import { IoEye, IoEyeOff } from "react-icons/io5";
+import {requestHttp} from "../../utils/HttpRequest";
 
 
 export const Login = () => {
@@ -17,6 +18,24 @@ export const Login = () => {
 
   const tooglePasswordVisible = () => {
     setVisiblePass(!visiblePass);
+  }
+
+  const loginHandler = async () => {
+    try {
+      const data = {
+        email: "guzmanyeison933@gmail.com",
+        password: "Medellin12*"
+      };
+      const response = await requestHttp(
+          {
+            endpoint: '/users/login',
+            body: data
+          }
+      );
+      console.log(response);
+    } catch (error) {
+      console.log('error', error);
+    }
   }
 
   return (
@@ -40,7 +59,7 @@ export const Login = () => {
           </FormControlAction>
         </FormControl>
         <br />
-        <Button label="Ingresar" onPress={() => alert("Iniciar sesión")} />
+        <Button label="Ingresar" onPress={loginHandler} />
       </form>
     </Page>
   )

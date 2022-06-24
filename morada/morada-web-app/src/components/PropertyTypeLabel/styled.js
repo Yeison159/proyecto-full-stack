@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const PropertyTypeLabelWrapper = styled.div`
    color: #fff;
-   background-color: #126efd;
+   background-color: #6831ac;
    border-radius: 6px;
    padding: 5px 3px;
    margin: 8px 0;

@@ -3,6 +3,7 @@ const { auth, register, info } = require('../services/usersService');
 const login = async (req, res) => {
   try {
     const user = req.body;
+
     const { statusHttp, response } = await auth(user.email, user.password);
     res.status(statusHttp).json(response);
   } catch (error) {

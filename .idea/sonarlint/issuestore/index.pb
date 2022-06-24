@@ -17,3 +17,9 @@ a
 1morada/morada-web-app/src/pages/NotFound/index.js,3\6\362651549aa402fc97859fc20e1cea02c0b5a6b3
 ^
 .morada/morada-web-app/src/pages/Login/index.js,7\a\7a237781c4f0bc9823433c2b2aa2c899c54f037c
+`
+0morada/morada-web-app/src/pages/Account/index.js,b\f\bf316aa2f53151360a1f06593d63ddd0e70778bf
+R
+"morada/morada-api-master/readme.md,5\3\53b5847696ef2c103c4decf9288bc9dd5fa857ca
+O
+morada/morada-api-master/app.js,1\4\1421681c7e9e063487c68aedf246b6b7ff1b4da6

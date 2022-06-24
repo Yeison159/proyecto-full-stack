@@ -40,7 +40,9 @@ const buildQueryFilter = (filter) => {
 
 const getProperty = async (id) => {
   try {
-    const preperty = PropertyModel.findById(id);
+    const preperty = await PropertyModel.findById(id)
+                  .populate("ownerId", "name email phone")
+                  .exec();
     if (preperty) {
       return responseOk({ preperty });
     }

@@ -30,6 +30,7 @@ const getDetail = async (req, res) => {
       const { statusHttp, response } = await getProperty(id);
       res.status(statusHttp).json(response);
   } catch (error) {
+    console.log('error', error);
     res.status(500).send(error);
   }
 };

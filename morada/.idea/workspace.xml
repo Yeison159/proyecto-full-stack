@@ -20,28 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c9e1d5-46c3-4517-bebc-3181f8e433af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/morada-api-master/connection/mongoconn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/controllers/propertiesCtrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/middleware/authVerify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/models/favoriteModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/models/propertyModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/models/requestModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/models/userModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/services/propertiesService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/spykes/bcryp-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/spykes/jwt-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/EscalarMoradaApp-Infraestructura.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/controllers/favoritesCtrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/public/33432245245.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/public/hola.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/routes/favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/services/favoritesService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-api-master/spykes/aggregate-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-web-app/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-web-app/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-web-app/src/utils/HttpRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/controllers/propertiesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/controllers/propertiesCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/controllers/usersCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/controllers/usersCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/models/favoriteModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/models/favoriteModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/routes/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/routes/properties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/services/propertiesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/services/propertiesService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-api-master/services/usersService.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/services/usersService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyCard/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyCard/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Login/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +61,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -73,7 +91,7 @@
       <recent name="C:\proyectos-full-stack\morada" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start-dev">
     <configuration name="start-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/morada-api-master/package.json" />
       <command value="run" />
@@ -84,9 +102,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/morada-web-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start-dev" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +132,9 @@
       <workItem from="1650722618787" duration="6000" />
       <workItem from="1652534101713" duration="613000" />
       <workItem from="1653657172632" duration="104000" />
-      <workItem from="1655322598705" duration="346000" />
+      <workItem from="1655322598705" duration="874000" />
+      <workItem from="1655327292888" duration="19000" />
+      <workItem from="1656104922295" duration="7406000" />
     </task>
     <servers />
   </component>
@@ -120,27 +151,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1653657275752">
+    <state x="363" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1656105003795">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1653657275752" />
-    <state width="1323" height="170" key="GridCell.Tab.0.bottom" timestamp="1655322887461">
+    <state x="363" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.720@0.0.1366.720" timestamp="1656105003795" />
+    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1655327309790">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
-    <state width="1323" height="170" key="GridCell.Tab.0.center" timestamp="1655322887461">
+    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1655327309790" />
+    <state width="1323" height="170" key="GridCell.Tab.0.bottom" timestamp="1656113139770">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
-    <state width="1323" height="170" key="GridCell.Tab.0.left" timestamp="1655322887461">
+    <state width="1323" height="170" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1656113139770" />
+    <state width="1323" height="170" key="GridCell.Tab.0.center" timestamp="1656113139769">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
-    <state width="1323" height="170" key="GridCell.Tab.0.right" timestamp="1655322887461">
+    <state width="1323" height="170" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1656113139769" />
+    <state width="1323" height="170" key="GridCell.Tab.0.left" timestamp="1656113139769">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="170" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1655322887461" />
+    <state width="1323" height="170" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1656113139769" />
+    <state width="1323" height="170" key="GridCell.Tab.0.right" timestamp="1656113139769">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1323" height="170" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1656113139769" />
+    <state x="391" y="77" width="583" height="566" key="find.popup" timestamp="1656111909606">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="391" y="77" width="583" height="566" key="find.popup/0.0.1366.720@0.0.1366.720" timestamp="1656111909606" />
   </component>
 </project>

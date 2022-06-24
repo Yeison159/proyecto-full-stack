@@ -7,8 +7,10 @@ const responseError = require('../utils/responseError');
 const auth = async (email, password) => {
   try {
     const user = await UserModel.findOne({ email: email });
+
     if (user) {
       const match = await bcrypt.compare(password, user.password);
+
       if (match) {
         const payload = {
           id: user._id,
@@ -20,6 +22,7 @@ const auth = async (email, password) => {
     }
     return responseError(401, "user unauthorized");
   } catch (error) {
+    console.log(error)
     return responseError(500, 'Server error');
   }
 };
