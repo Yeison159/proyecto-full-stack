@@ -21,6 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6a90c272-a999-4934-9e9c-74d883fd000d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/morada/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/2/7/275d783e298228506068436512433d343feb52aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/5/3/53858b774196d819779c438b8ec4d07165fd2959" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/7/3/73f993f92cde52c425ab3eec6b58e3d28759cf77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/7/5/75a05ed5075af4d878149db988ee1e265cf54b06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xampp/htdocs/proyectos_codi/toa-dev/toa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -92,6 +99,8 @@
       <workItem from="1652995526938" duration="970000" />
       <workItem from="1653657278655" duration="64000" />
       <workItem from="1653661086103" duration="743000" />
+      <workItem from="1656113677017" duration="1616000" />
+      <workItem from="1656181477498" duration="174000" />
     </task>
     <servers />
   </component>

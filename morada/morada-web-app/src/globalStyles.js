@@ -54,6 +54,20 @@ export const FormControlInput = styled.div`
         border: none;
         outline: none;
     }
+    select {
+       display: block;
+        width: 100%;
+        font-size: 1.1em;
+        padding: 5px 10px;
+        margin: 0px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+     span {
+        color: red;
+        font-size: 0.85em;
+    }
 `;
 
 export const FormControlAction = styled.div`

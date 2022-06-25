@@ -20,39 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c9e1d5-46c3-4517-bebc-3181f8e433af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/morada-api-master/EscalarMoradaApp-Infraestructura.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/controllers/favoritesCtrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/public/33432245245.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/public/hola.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/routes/favorites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/services/favoritesService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-api-master/spykes/aggregate-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-web-app/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-web-app/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/morada-web-app/src/utils/HttpRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morada-web-app/src/utils/SwAlert.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/controllers/propertiesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/controllers/propertiesCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/controllers/usersCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/controllers/usersCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/models/favoriteModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/models/favoriteModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/services/propertiesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/services/propertiesService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-api-master/services/usersService.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/services/usersService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/.idea/sonarlint/issuestore/0/1/0183ca13e8b379ffbb27ca8371a09f05510b35e8" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/.idea/sonarlint/issuestore/0/1/0183ca13e8b379ffbb27ca8371a09f05510b35e8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/.idea/sonarlint/issuestore/5/4/545405fefb7773e4b4dfc6f8bee609e893c5d0e9" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/.idea/sonarlint/issuestore/5/4/545405fefb7773e4b4dfc6f8bee609e893c5d0e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-api-master/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/morada-api-master/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/1/4/14f023b3274b44097f7fdf7997679e6969db9f7a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/4/4/4446ad3e5fe584bf1d9dc2ee7052f2ae856e547c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/4/4/44b5cc2438e9e6d6d3d1644b7d1d5278234a3466" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/8/e/8e827929f08c13aded09307a04659fe7c5ef10af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/12.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/4.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyCard/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Home/components/PropertyCard/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/components/Button/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/components/Button/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/globalStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada-web-app/src/pages/Signup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada-web-app/src/pages/Signup/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +138,9 @@
       <workItem from="1653657172632" duration="104000" />
       <workItem from="1655322598705" duration="874000" />
       <workItem from="1655327292888" duration="19000" />
-      <workItem from="1656104922295" duration="7406000" />
+      <workItem from="1656104922295" duration="8388000" />
+      <workItem from="1656181478982" duration="22000" />
+      <workItem from="1656189954311" duration="8000" />
     </task>
     <servers />
   </component>
@@ -158,10 +164,10 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="363" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.720@0.0.1366.720" timestamp="1656105003795" />
-    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1655327309790">
+    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1656181499889">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1655327309790" />
+    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1656181499889" />
     <state width="1323" height="170" key="GridCell.Tab.0.bottom" timestamp="1656113139770">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
