@@ -1,4 +1,5 @@
 import axios from "axios";
+import { getToken } from "./TokenLS";
 
 export const HTTP_VERBS = {
     POST: "post",
@@ -20,16 +21,17 @@ export const requestHttp = async ({
                                       endpoint = '/',
                                       body = {},
                                       params = {}, //query params
-                                      token = ''
+                                      token = null
                                   }) => {
     try {
         const url = process.env.REACT_APP_BASE_API + endpoint;
+        const authToken = token || getToken();
         const options = {
             url,
             method,
             data: body,
             params,
-            headers: headersConfig(token)
+            headers: headersConfig(authToken)
         };
         return await axios(options);
     } catch (error) {

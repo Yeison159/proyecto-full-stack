@@ -1,21 +1,34 @@
 import { Button } from "../../components/Button";
 import { Page } from "../../components/Page";
+import { UserContext } from "../../contexts/UserContext";
 import { PageTitle } from "../../globalStyles";
-import React from "react";
+import React, {useContext} from "react";
+import {removeToken} from "../../utils/TokenLS";
 
 export const Account = () => {
 
-    const isAuth = true;
+    const { user, setUser } = useContext(UserContext);
 
+    const closeSession = () => {
+        setUser({
+            name: '',
+            phone:'',
+            role: 0,
+            identification:'',
+            email:'',
+            isAuthenticated: false,
+        });
+        removeToken()
+    }
     const UserInfo = () => (
         <div>
-            <h3>yeison</h3>
-            <h5>12121212</h5>
-            <p>Yeison@gmail.com</p>
+            <h3>{user.name}</h3>
+            <h5>{user.phone}</h5>
+            <p>{user.email}</p>
             <hr />
             <Button
                 label="Cerrar sesión"
-                onPress={ () => { alert('cerrar sesión') } }
+                onPress={closeSession }
             />
         </div>
     )
@@ -33,7 +46,7 @@ export const Account = () => {
         <Page>
             <PageTitle>Mi cuenta</PageTitle>
             {
-                isAuth ? <UserInfo /> : <UserUnauthorized />
+                user.isAuthenticated ? <UserInfo /> : <UserUnauthorized />
             }
         </Page>
     )

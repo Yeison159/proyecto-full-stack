@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useContext, useState } from "react";
 import { Page } from "../../components/Page";
 import {
   FormControl,
@@ -9,12 +9,16 @@ import {
 import { Button } from "../../components/Button";
 import { ButtonIcon } from "../../components/ButtonIcon";
 import { IoEye, IoEyeOff } from "react-icons/io5";
-import {requestHttp} from "../../utils/HttpRequest";
+import { HTTP_VERBS, requestHttp } from "../../utils/HttpRequest";
 import { useForm } from "react-hook-form";
 import { showAlert, SW_ICON } from "../../utils/SwAlert";
 import { useNavigate } from "react-router-dom";
+import { setToken } from "../../utils/TokenLS";
+import { UserContext } from "../../contexts/UserContext";
 
 export const Login = () => {
+
+  const {user, setUser} = useContext(UserContext);
 
   const [visiblePass, setVisiblePass] = useState(false);
   const navigate = useNavigate();
@@ -26,11 +30,11 @@ export const Login = () => {
 
   const tooglePasswordVisible = () => {
     setVisiblePass(!visiblePass);
-  }
+  };
 
-  const onSubmitLogin = async (data) => {
-
-   await loginRequest(data);
+  const onSubmitLogin = (data) => {
+    console.log("data", data);
+    loginRequest(data);
   };
 
   const loginRequest = async (data) => {
@@ -39,7 +43,8 @@ export const Login = () => {
         endpoint: "/users/login",
         body: data,
       });
-      console.log(response);
+      const {data: dataResponse} = response;
+      setToken(dataResponse.token);
       showAlert(
           "Bienvenido",
           "Validación correcta",
@@ -51,7 +56,6 @@ export const Login = () => {
       showAlert("Error", "Credenciales incorrectas", SW_ICON.ERROR);
     }
   };
-
 
   return (
       <Page hideMenu>
@@ -83,7 +87,6 @@ export const Login = () => {
                   type={visiblePass ? "text" : "password"}
                   {...register("password", { required: true })}
               />
-
               {errors.password?.type === "required" && (
                   <span>El campo contraseña es requerido</span>
               )}
@@ -104,5 +107,5 @@ export const Login = () => {
           />
         </form>
       </Page>
-  )
+  );
 };

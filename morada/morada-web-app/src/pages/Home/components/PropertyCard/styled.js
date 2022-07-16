@@ -1,7 +1,9 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
-export const PropertyTypeCardWrapper = styled.div`
+export const PropertyTypeCardWrapper = styled(Link)`
   border: 1px solid #ccc;
+  text-decoration: none;
   border-radius: 20px;
     padding: 15px;
   display: flex;
@@ -30,3 +32,7 @@ export const PropertyInfoWrapper = styled.div`
         margin: 0;
      }
     `;
+
+export const PropertyValueWrapper = styled.p`
+    color: #222;
+`;

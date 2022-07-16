@@ -7,6 +7,7 @@ const login = async (req, res) => {
     const { statusHttp, response } = await auth(user.email, user.password);
     res.status(statusHttp).json(response);
   } catch (error) {
+
     res.status(500).send(error);
   }
 };

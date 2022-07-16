@@ -40,11 +40,11 @@ const buildQueryFilter = (filter) => {
 
 const getProperty = async (id) => {
   try {
-    const preperty = await PropertyModel.findById(id)
+    const property = await PropertyModel.findById(id)
                   .populate("ownerId", "name email phone")
                   .exec();
-    if (preperty) {
-      return responseOk({ preperty });
+    if (property) {
+      return responseOk({ property });
     }
     return responseError(404, "Property not found");
   } catch (error) {

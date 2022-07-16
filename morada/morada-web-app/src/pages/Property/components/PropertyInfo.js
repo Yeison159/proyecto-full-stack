@@ -4,14 +4,17 @@ import {SubTitle} from "../../../globalStyles";
 import {IoPricetags, IoStarSharp} from "react-icons/io5";
 import {PropertyTypeLabel} from "../../../components/PropertyTypeLabel";
 import {PropertyInforWrapper} from "./styled";
+import {getCityZoneLabel, getPropertyTypeLabel} from "../../../utils/GetDataConstants";
+import {getCurrencyFormat} from "../../../utils/CurrencyFormat";
 
 
-export const PropertyInfo = () => {
+export const PropertyInfo = ({data}) => {
+
     return (
         <PropertyInforWrapper>
-            <h3> Apartamento en laures</h3>
+            <h3>{data.title}</h3>
             <div className="container-subtitle">
-                <SubTitle>Laureles, Medellin</SubTitle>
+                <SubTitle>{getCityZoneLabel(data.city, data.zone)}</SubTitle>
                 <div className="rate">
                     <IoStarSharp /> <span>4.5 <small>(250 vistas)</small></span>
                 </div>
@@ -21,16 +24,16 @@ export const PropertyInfo = () => {
                 <div className="container-secundary">
                     <div className="info-secudary-type">
                         <IoPricetags/>
-                        <p className="info-type-margin">Venta</p>
+                        <p className="info-type-margin"> {getPropertyTypeLabel(data.propertyType)}</p>
                     </div>
                     <div className= "info-container-secudary-type">
-                        <PropertyTypeLabel/>
+                        <PropertyTypeLabel typeId={data.propertyType}/>
                     </div>
                 </div>
 
             </div>
 
-            <p className="price">$400.000</p>
+            <p className="price">{getCurrencyFormat(data.value)}</p>
         </PropertyInforWrapper>
     );
 };

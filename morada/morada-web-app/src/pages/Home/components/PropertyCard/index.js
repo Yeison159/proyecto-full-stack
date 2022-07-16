@@ -1,24 +1,31 @@
 import React from 'react';
-import {PropertyImageWrapper, PropertyInfoWrapper, PropertyTypeCardWrapper} from "./styled";
+import {
+    PropertyImageWrapper,
+    PropertyTypeCardWrapper,
+    PropertyInfoWrapper,
+    PropertyValueWrapper
+} from "./styled";
 import {SubTitle} from "../../../../globalStyles";
+import { getCurrencyFormat } from "../../../../utils/CurrencyFormat";
+import { getCityZoneLabel } from "../../../../utils/GetDataConstants";
+import { getStaticImage } from "../../../../utils/StaticImage";
 import {PropertyTypeLabel} from "../../../../components/PropertyTypeLabel";
 import {PropertyTypeBusiness} from "../../../../components/PropertyTypeBusiness";
 
-export const PropertyCard = () => {
+export const PropertyCard = (props) => {
+    console.log(getStaticImage(props.mainImage))
     return (
-        <PropertyTypeCardWrapper>
+        <PropertyTypeCardWrapper to={`/property/${props._id}`}>
             <PropertyImageWrapper>
-                <img
-                    src="https://images.ctfassets.net/8lc7xdlkm4kt/5XZ6f7kcqu0cVgTnFoFnLt/52ac8951ab8edd991e28b383a6eac830/61M2.jpg"
-                    alt="apartamento"/>
+                <img alt="foto propiedad" src={getStaticImage(props.mainImage)} />
             </PropertyImageWrapper>
             <PropertyInfoWrapper>
-               <h3> Apartamento en laures</h3>
-                <SubTitle>Laureles, Medellin</SubTitle>
+                <h3>{props.title}</h3>
+                <SubTitle>{getCityZoneLabel(props.city, props.zone)}</SubTitle>
 
-                <PropertyTypeLabel />
-                <PropertyTypeBusiness />
-                <p>$400.000</p>
+                <PropertyTypeLabel typeId={props.propertyType} />
+                <PropertyTypeBusiness businessType={props.businessType}/>
+                <PropertyValueWrapper>{getCurrencyFormat(props.value)}</PropertyValueWrapper>
             </PropertyInfoWrapper>
         </PropertyTypeCardWrapper>
     );

@@ -4,7 +4,7 @@ import {SubTitle} from "../../../globalStyles";
 import {IoLogoWechat, IoLogoWhatsapp} from "react-icons/io5";
 
 
-export const PropertysellerInfo = () => {
+export const PropertysellerInfo = ({propietario}) => {
     return (
         <PropertysellerInfoWrapper>
             <div className="sale-info">
@@ -13,7 +13,9 @@ export const PropertysellerInfo = () => {
                 </div>
                 <div className="seller-info">
                     <SubTitle>Propietario</SubTitle>
-                    <h4>Yeison  estiven guzmán  </h4>
+                    <hr/>
+                    <h4>{propietario.name} </h4>
+                    <h4>{propietario.email} </h4>
                 </div>
             </div>
             <div className="info-sale-icon">

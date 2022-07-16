@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Page} from "../../components/Page";
+import { useParams } from "react-router-dom";
 
 import {SubTitle} from "../../globalStyles";
 import {PropertyTypeLabel} from "../../components/PropertyTypeLabel";
@@ -17,9 +18,33 @@ import Hr from "../../components/Hr";
 import {PropertyInfo} from "./components/PropertyInfo";
 import {PropertyDescription} from "./components/PropertyDescription";
 import {PropertysellerInfo} from "./components/PropertysellerInfo";
-
+import { HTTP_VERBS, requestHttp } from "../../utils/HttpRequest";
+import {getStaticImage} from "../../utils/StaticImage";
 
 export const Property = () => {
+    const {idProperty} = useParams()
+
+    const [propertyDetail, setPropertyDetail] = useState({});
+    const requestProperties = async () => {
+        try {
+            const response = await requestHttp({
+                method: HTTP_VERBS.GET,
+                endpoint: `/properties/${idProperty}`,
+            });
+            const data = response.data;
+            setPropertyDetail({...data.property})
+
+        } catch (error) {
+            // TODO
+        }
+    };
+    useEffect(() => {
+        requestProperties()
+        return () => {
+
+        };
+    }, [idProperty]);
+
     return (
         <Page>
             <PropertyHeaderWrapper>
@@ -27,13 +52,11 @@ export const Property = () => {
                 <div className="container-icon"> <IoMenuOutline /></div>
             </PropertyHeaderWrapper>
             <PropertyImageWrapper>
-                <img
-                    src="https://images.ctfassets.net/8lc7xdlkm4kt/5XZ6f7kcqu0cVgTnFoFnLt/52ac8951ab8edd991e28b383a6eac830/61M2.jpg"
-                    alt="apartamento"/>
+                <img alt="foto propiedad" src={getStaticImage(propertyDetail.mainImage)} />
             </PropertyImageWrapper>
-            <PropertyInfo />
-            <PropertyDescription />
-             <PropertysellerInfo />
+            <PropertyInfo data={{...propertyDetail}}  />
+            <PropertyDescription description={propertyDetail.description} />
+             <PropertysellerInfo propietario={propertyDetail.ownerId}/>
             <Hr />
             <WrapperPropertyButton>
                 <button >Reservar Ahora</button>
