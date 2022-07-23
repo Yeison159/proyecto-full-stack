@@ -40,9 +40,7 @@ export const Property = () => {
     };
     useEffect(() => {
         requestProperties()
-        return () => {
 
-        };
     }, [idProperty]);
 
     return (
@@ -55,12 +53,12 @@ export const Property = () => {
                 <img alt="foto propiedad" src={getStaticImage(propertyDetail.mainImage)} />
             </PropertyImageWrapper>
             <PropertyInfo data={{...propertyDetail}}  />
-            <PropertyDescription description={propertyDetail.description} />
-             <PropertysellerInfo propietario={propertyDetail.ownerId}/>
-            <Hr />
+           <PropertyDescription description={propertyDetail.description} />
+            {propertyDetail.ownerId &&  <PropertysellerInfo propietario={propertyDetail.ownerId}/>}
+             <Hr />
             <WrapperPropertyButton>
                 <button >Reservar Ahora</button>
-            </WrapperPropertyButton>
+            </WrapperPropertyButton>*/}
         </Page>
     );
 };

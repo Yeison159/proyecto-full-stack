@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import {BrowserRouter, Route, Routes, useLocation, useNavigate} from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Property } from "./pages/Property";
 import { NotFound } from "./pages/NotFound";
@@ -7,6 +7,7 @@ import { Account } from "./pages/Account";
 import { Favorites } from "./pages/Favorites";
 import { Login } from "./pages/Login";
 import { Signup } from "./pages/Signup";
+import { POCUploadImage } from "./pages/POCUploadImage";
 
 import { getToken, removeToken } from "./utils/TokenLS";
 import { UserContext } from "./contexts/UserContext";
@@ -15,6 +16,8 @@ import { requestHttp, HTTP_VERBS } from "./utils/HttpRequest";
 export const Navigation = () => {
     const { user, setUser } = useContext(UserContext);
     const location = useLocation();
+    const navigate = useNavigate()
+
 
     useEffect(() => {
         checkUserAuthenticated();
@@ -22,6 +25,7 @@ export const Navigation = () => {
 
     const checkUserAuthenticated = () => {
         const token = getToken();
+
         if (token && !user.isAuthenticated) {
             requestGetUserInfo(token);
         }
@@ -43,6 +47,10 @@ export const Navigation = () => {
                 email: data.user.email,
                 isAuthenticated: true,
             });
+
+            if (location.pathname === '/login') {
+                navigate('/')
+            }
         } catch (error) {
             console.log("error", error);
             removeToken();
@@ -57,6 +65,7 @@ export const Navigation = () => {
             <Route path="/favorites" element={<Favorites />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/pocuploadimage" element={<POCUploadImage />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );
