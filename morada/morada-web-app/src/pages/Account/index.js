@@ -4,6 +4,7 @@ import { UserContext } from "../../contexts/UserContext";
 import { PageTitle } from "../../globalStyles";
 import React, {useContext} from "react";
 import {removeToken} from "../../utils/TokenLS";
+import { Link } from "react-router-dom";
 
 export const Account = () => {
 
@@ -25,7 +26,10 @@ export const Account = () => {
             <h3>{user.name}</h3>
             <h5>{user.phone}</h5>
             <p>{user.email}</p>
+            <Link to='/favorites'> Ver favoritos</Link>
+
             <hr />
+
             <Button
                 label="Cerrar sesión"
                 onPress={closeSession }

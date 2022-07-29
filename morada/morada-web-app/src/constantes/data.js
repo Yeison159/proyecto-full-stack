@@ -1,4 +1,3 @@
-
 export const PROPERTY_TYPE = {
     1: 'Apartamento',
     2: 'Casa',
@@ -40,3 +39,47 @@ export const CITIES = {
         }
     }
 };
+
+export const PROPERTY_TYPE_SELECT = [
+    {id: 1, name: 'Apartamento'},
+    {id: 2, name: 'Casa'},
+    {id: 3, name: 'Lote'},
+    {id: 4, name: 'Finca'},
+    {id: 5, name: 'Finca'},
+];
+
+export const BUSINESS_TYPE_SELECT = [
+    {id: 1, name: 'Venta'},
+    {id: 2, name: 'Renta'},
+];
+
+export const CITIES_SELECT = [
+    {
+        id: 1,
+        name: 'Medellín',
+        zones: [
+            {id: 1, name: 'Ciudad del Rio'},
+            {id: 2, name: 'Laureles'},
+            {id: 3, name: 'Estadio'},
+        ]
+    }, {
+        id: 2,
+        name: 'Sabaneta',
+        zones: [
+            {id: 1, name: 'Parque'},
+        ]
+    }, {
+        id: 3,
+        name: 'Rionegro',
+        zones: [
+            {id: 1, name: 'Llanogrande'},
+        ]
+    }, {
+        id: 4,
+        name: 'Envigado',
+        zones: [
+            {id: 1, name: 'La Paz'},
+        ]
+    },
+];
+

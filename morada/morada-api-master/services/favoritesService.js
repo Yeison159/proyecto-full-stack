@@ -2,10 +2,16 @@ const responseError = require("../utils/responseError");
 const responseOk = require("../utils/responseOk");
 
 const FavoriteModel = require("./../models/favoriteModel");
+const UserModel = require("../models/userModel");
 
 
 const addFavorite = async (favoriteData) => {
     try {
+
+        if (await validateFavorite(favoriteData.propertyId, favoriteData.userId )) {
+            return responseError(400, 'Property is alredy add');
+        }
+
         const favorite = new FavoriteModel(favoriteData);
         await favorite.save();
         return responseOk({ favorite });
@@ -19,7 +25,8 @@ const addFavorite = async (favoriteData) => {
 const getFavorites = async  (user) => {
     try {
 
-        const favorites = await FavoriteModel.findOne({userId: user}).exec();
+        const favorites = await FavoriteModel.find({userId: user}).populate("propertyId")
+            .exec();
 
         if (favorites) {
             return responseOk({ favorites });
@@ -35,13 +42,21 @@ const deleteFavorite = async (id) => {
     try {
 
         const favorites = await FavoriteModel.deleteOne({_id: id});
-         console.log(favorites)
         if (favorites) {
             return responseOk({ favorites });
         }
         return responseError(404, "Favorite not found");
     }catch (e) {
         return responseError(500, "Server error");
+    }
+}
+
+const validateFavorite = async (property, user) => {
+    try {
+        const checkFavorite = await FavoriteModel.findOne({ propertyId: property, userId:  user});
+        return checkFavorite ? true : false;
+    } catch (error) {
+        return responseError(500, 'Server error');
     }
 }
 

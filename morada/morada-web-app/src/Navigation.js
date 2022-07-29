@@ -12,6 +12,7 @@ import { POCUploadImage } from "./pages/POCUploadImage";
 import { getToken, removeToken } from "./utils/TokenLS";
 import { UserContext } from "./contexts/UserContext";
 import { requestHttp, HTTP_VERBS } from "./utils/HttpRequest";
+import PropertyAdmin from "./pages/PropertyAdmin";
 
 export const Navigation = () => {
     const { user, setUser } = useContext(UserContext);
@@ -45,6 +46,7 @@ export const Navigation = () => {
                 role: data.user.role,
                 identification: data.user.document,
                 email: data.user.email,
+                idUser: data.user._id,
                 isAuthenticated: true,
             });
 
@@ -66,6 +68,7 @@ export const Navigation = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/pocuploadimage" element={<POCUploadImage />} />
+            { Number(user.role) === 2 && <Route path="/propertyAdmin" element={<PropertyAdmin />} />}
             <Route path="*" element={<NotFound />} />
         </Routes>
     );

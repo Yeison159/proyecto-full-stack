@@ -3,7 +3,7 @@ import { Button } from "../../components/Button";
 import { CONTENT_TYPES, requestHttp } from "../../utils/HttpRequest";
 import { showAlert, SW_ICON } from "../../utils/SwAlert";
 
-export const POCUploadImage = () => {
+export const POCUploadImage = ({getNameImage}) => {
     const [file, setFile] = useState(null);
 
     const fileSelectedHandler = (event) => {
@@ -29,8 +29,10 @@ export const POCUploadImage = () => {
                 contentType: CONTENT_TYPES.MULTIPART_FORM_DATA,
                 body: formData,
             });
+            const data = response.data.fileName ? response.data.fileName : '';
+            getNameImage(data);
             showAlert('Archivo cargado', 'El archivo fue subido', SW_ICON.SUCCESS);
-            console.log("response", response);
+
         } catch (error) {
             console.log("error", error);
         }

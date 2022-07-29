@@ -19,7 +19,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a90c272-a999-4934-9e9c-74d883fd000d" name="Default Changelist" comment="" />
+    <list default="true" id="6a90c272-a999-4934-9e9c-74d883fd000d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/controllers/propertiesCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/controllers/propertiesCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/is-ci" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/is-ci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/nodemon" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/nodemon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/nodetouch" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/nodetouch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/is-ci/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/is-ci/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/make-dir/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/make-dir/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/make-dir/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/make-dir/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/mime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/nodemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/package-json/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/package-json/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/package-json/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/package-json/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/rc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/rc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/semver-diff/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/semver-diff/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/semver-diff/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/semver-diff/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/touch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/touch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/update-notifier/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/update-notifier/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/node_modules/update-notifier/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/node_modules/update-notifier/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morada/morada-api-master/routes/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/morada/morada-api-master/routes/properties.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,16 +75,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/proyecto-full-stack",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/proyecto-full-stack&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\proyectos-full-stack\morada\morada-api-master" />
@@ -93,6 +122,7 @@
       <workItem from="1656113677017" duration="1616000" />
       <workItem from="1656181477498" duration="174000" />
       <workItem from="1658000183748" duration="720000" />
+      <workItem from="1658601947974" duration="137000" />
     </task>
     <servers />
   </component>

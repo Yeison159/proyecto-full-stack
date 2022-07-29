@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {Page} from "../../components/Page";
 import { useParams } from "react-router-dom";
 
@@ -6,11 +6,8 @@ import {SubTitle} from "../../globalStyles";
 import {PropertyTypeLabel} from "../../components/PropertyTypeLabel";
 import {IoPricetags, IoChevronBackOutline, IoMenuOutline, IoLogoWhatsapp, IoLogoWechat, IoStarSharp} from "react-icons/io5";
 import {
-    PropertyDescripcitionWrapper,
     PropertyHeaderWrapper,
     PropertyImageWrapper,
-    PropertyInforWrapper,
-    PropertysellerInfoWrapper,
     WrapperPropertyButton,
 
 } from "./styled";
@@ -20,11 +17,41 @@ import {PropertyDescription} from "./components/PropertyDescription";
 import {PropertysellerInfo} from "./components/PropertysellerInfo";
 import { HTTP_VERBS, requestHttp } from "../../utils/HttpRequest";
 import {getStaticImage} from "../../utils/StaticImage";
+import {UserContext} from "../../contexts/UserContext";
+import {showAlert, SW_ICON} from "../../utils/SwAlert";
 
 export const Property = () => {
     const {idProperty} = useParams()
+    const { user, setUser } = useContext(UserContext);
 
     const [propertyDetail, setPropertyDetail] = useState({});
+    
+    const addFavorites = async () =>{
+        try{
+            const payload = {
+                propertyId: idProperty,
+                userId: user.idUser
+            };
+            const response = await requestHttp({
+                method: HTTP_VERBS.POST,
+                endpoint: `/favorites`,
+                body: payload
+            });
+
+
+
+            showAlert(
+                "Éxito",
+                'Propiedad agregada de a favoritos',
+                SW_ICON.SUCCESS,
+
+            );
+
+        }catch (e) {
+            console.log()
+            showAlert("Error", e.response.data, SW_ICON.ERROR);
+        }
+    }
     const requestProperties = async () => {
         try {
             const response = await requestHttp({
@@ -56,9 +83,15 @@ export const Property = () => {
            <PropertyDescription description={propertyDetail.description} />
             {propertyDetail.ownerId &&  <PropertysellerInfo propietario={propertyDetail.ownerId}/>}
              <Hr />
-            <WrapperPropertyButton>
+            {user.isAuthenticated && <WrapperPropertyButton>
                 <button >Reservar Ahora</button>
-            </WrapperPropertyButton>*/}
+
+            </WrapperPropertyButton>}
+            <Hr />
+            {user.isAuthenticated && <WrapperPropertyButton>
+                <button onClick={addFavorites} >Agregar a favoritos</button>
+            </WrapperPropertyButton>}
+
         </Page>
     );
 };

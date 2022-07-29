@@ -35,5 +35,6 @@ button {
   font-size: 1.02em;
   font-weight: 400;
   text-transform: capitalize;
+  cursor: pointer;
 }
 `

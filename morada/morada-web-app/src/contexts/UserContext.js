@@ -6,7 +6,8 @@ const initialState = {
     phone: '',
     email: '',
     identification: '',
-    isAuthenticated: false
+    isAuthenticated: false,
+    idUser: 0
 };
 
 export const UserContext = createContext(initialState);
